@@ -1,0 +1,155 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #201b2d;
+	margin: 0;
+	padding: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 700;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* первый экран */
+.header {
+	background: rgb(78,190,254); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(78,190,254,1) 0%,rgba(55,143,217,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(78,190,254,1) 0%,rgba(55,143,217,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding: 60px 0 90px 0;
+	color: #fff;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.offer {
+	margin: 135px 0 0 0;
+}
+.title {
+	font-size: 37px;
+	letter-spacing: 1px;
+	line-height: 49px;
+	margin: 0 0 40px 0;
+	width: 570px;
+}
+.title span {
+	font-size: 59px;
+}
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	width: 405px;
+	margin: 0 0 45px 0;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: #2e2a1b;
+	text-align: center;
+	text-decoration: none;
+	background-color: #ffd429;
+	display: block;
+	width: 222px;
+	padding: 19px 0;
+	transition: all 0.5s ease;;
+}
+.btn:hover {
+	background-color: #f0ab29;
+}
+
+/* Зачем я обучаюсь */
+.learn {
+	padding: 105px 0 115px 0;
+	background: #fff;
+}
+.priorities {
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 0 0 0;
+}
+.section__title {
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.priority {
+	width: 299px;
+	text-align: center;
+	padding: 120px 0 0 0;
+}
+.priority__title {
+	font-size: 19px;
+	line-height: 25px;
+}
+.priority__text {
+	line-height: 22px;
+	margin: 15px 0 0 0;
+}
+.priority__time {
+	background: url('../img/icon-time.png') center top no-repeat;
+}
+.priority__beach {
+	background: url('../img/icon-beach.png') center top no-repeat;
+}
+.priority__launch {
+	background: url('../img/icon-launch.png') center top no-repeat;
+}
+
+/* Я буду писать вам */
+.order {
+	background-color: #ecf2f8;
+	padding: 100px 0;
+}
+.input {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	padding: 0 0 0 25px;
+	width: 343px;
+	height: 56px;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+}
+.form {
+	margin: 50px 0 0 0;
+}
+.input, .order__btn {
+	display: block;
+	margin: 15px auto;
+}
+.order__btn {
+	font-size: 15px;
+	width: 343px;
+	cursor: pointer;
+	border: 0;
+}
+
+/* Футер */
+.footer {
+	background-color: #164d7a;
+	padding: 55px 0;
+}
+.credits {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}

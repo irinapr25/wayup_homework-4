@@ -15,7 +15,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 		 	var topOfWindow = $(window).scrollTop();
-		 	if (imagePos < topOfWindow+1000) {
+		 	if (imagePos < topOfWindow+900) {
 				$(this).addClass('animate__heartBeat');
 			}
 		});

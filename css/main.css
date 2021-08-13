@@ -17,7 +17,6 @@ p {
 	margin: 0;
 	padding: 0;
 }
-
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -36,10 +35,13 @@ p {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .offer {
-	margin: 135px 0 0 0;
 	width: 529px;
+}
+.logo {
+	margin: 0 0 10px 0;
 }
 .title {
 	font-size: 37px;
@@ -162,14 +164,20 @@ p {
 	.header {
 		padding: 20px 0 20px 0;
 	}
-	.offer {
-		margin: 50px 0 0 0;
+	.logo {
+		margin: 0 0 30px 0;
 	}
 	.intro {
 		width: auto;
 	}
 	.travel {
 		width: 550px;
+	}
+	.title {
+		line-height: 1.3em;
+	}
+	.intro {
+		line-height: 1.3em;
 	}
 	.learn {
 		padding: 50px 0 50px 0;
@@ -200,8 +208,8 @@ p {
 		flex-direction: column;
 	}
 	.priority {
-		width: auto;
-		margin: 0 0 50px 0;
+		margin: 0 auto;
+		width: 100%;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -216,10 +224,12 @@ p {
 	}
 	.input {
 		width: 100%;
+		padding: 0 0 0 15px;
 	}
 }
 @media screen and (max-width: 576px) {
 	.container {
 		width: 90%;
 	}
+
 }
